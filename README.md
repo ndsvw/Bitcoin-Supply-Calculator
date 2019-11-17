@@ -2,6 +2,18 @@
 
 A very simple algorithm that calculates the total bitcoin supply after a given block
 
+## Explanation
+
+The Bitcoin block reward (the reward a miner gets for mining a block) halves every 210,000 blocks (~ 4 years).
+
+The first block was mined on 2009-01-03 by "Satoshi Nakamoto".
+
+The first halving was on 2012-11-28 (from 50 BTC to 25 BTC) and the second one on 2016-07-09 (from 25 BTC to 12.5 BTC)...
+
+*This algorithm calculates the given BTC-supply after a given block regarding this halving-rule. The calculated value is the hypothetical largest possible supply after the given block. Lost bitcoins (because someone lost his or her private key(s), died without giving someone access to the bitcoins, etc) are of course not considered in this algorithm.*
+
+More about the reward-halving: https://www.bitcoinmining.com/what-is-the-bitcoin-block-reward/
+
 ## Examples
 
 #### 2009-01-03:
