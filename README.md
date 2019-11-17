@@ -30,3 +30,21 @@ btcSupplyAtBlock(420000)   # returns 15,750,012.5
 btcSupplyAtBlock(420001)   # returns 15,750,025.0
 btcSupplyAtBlock(420002)   # returns 15,750,037.5
 ```
+
+#### 2020:
+```python
+btcSupplyAtBlock(629998)   # returns 18,374,987.5
+btcSupplyAtBlock(629999)   # returns 18,375,000.0
+btcSupplyAtBlock(630000)   # returns 18,375,006.25
+btcSupplyAtBlock(630001)   # returns 18,375,012.5
+btcSupplyAtBlock(630002)   # returns 18,375,018.75
+```
+
+#### 2024:
+```python
+btcSupplyAtBlock(839998)   # returns 19,687,493.75
+btcSupplyAtBlock(839999)   # returns 19,687,500.0
+btcSupplyAtBlock(840000)   # returns 19,687,503.125
+btcSupplyAtBlock(840001)   # returns 19,687,506.25
+btcSupplyAtBlock(840002)   # returns 19,687,509.375
+```
