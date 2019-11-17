@@ -48,3 +48,17 @@ btcSupplyAtBlock(840000)   # returns 19,687,503.125
 btcSupplyAtBlock(840001)   # returns 19,687,506.25
 btcSupplyAtBlock(840002)   # returns 19,687,509.375
 ```
+
+#### over time:
+```python
+btcSupplyAtBlock(10)       # returns 550
+btcSupplyAtBlock(100)      # returns 5,050
+btcSupplyAtBlock(1000)     # returns 50,050
+btcSupplyAtBlock(10000)    # returns 500,050
+btcSupplyAtBlock(100000)   # returns 5,000,050
+btcSupplyAtBlock(250000)   # returns 11,500,025.0
+btcSupplyAtBlock(500000)   # returns 16,750,012.5
+btcSupplyAtBlock(750000)   # returns 19,125,006.25
+btcSupplyAtBlock(1000000)  # returns 20,187,503.125
+btcSupplyAtBlock(2500000)  # returns 20,994,384.79
+```
