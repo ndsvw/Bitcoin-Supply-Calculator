@@ -72,5 +72,5 @@ btcSupplyAtBlock(250000)   # returns 11,500,025.0
 btcSupplyAtBlock(500000)   # returns 16,750,012.5
 btcSupplyAtBlock(750000)   # returns 19,125,006.25
 btcSupplyAtBlock(1000000)  # returns 20,187,503.125
-btcSupplyAtBlock(2500000)  # returns 20,994,384.79
+btcSupplyAtBlock(2500000)  # returns 20,994,384.78851406
 ```
