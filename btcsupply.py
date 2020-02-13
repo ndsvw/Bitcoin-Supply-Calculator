@@ -17,5 +17,6 @@ def btcSupplyAtBlock(b):
         return (supply + reward) / 1e8
 
 
-block = 1000000  # you want the supply after which block?
-print(btcSupplyAtBlock(block))
+if __name__ == "__main__":
+    block = 1000000  # you want the supply after which block?
+    print(btcSupplyAtBlock(block))
