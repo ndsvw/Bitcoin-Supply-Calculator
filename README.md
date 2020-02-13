@@ -22,7 +22,7 @@ btcSupplyAtBlock(0)   # returns 50
 btcSupplyAtBlock(1)   # returns 100
 btcSupplyAtBlock(2)   # returns 150
 btcSupplyAtBlock(3)   # returns 200
-btcSupplyAtBlock(3)   # returns 250
+btcSupplyAtBlock(4)   # returns 250
 ```
 
 #### 2012-11-28:
@@ -31,7 +31,7 @@ btcSupplyAtBlock(209998)   # returns 10,499,950
 btcSupplyAtBlock(209999)   # returns 10,500,000
 btcSupplyAtBlock(210000)   # returns 10,500,025
 btcSupplyAtBlock(210001)   # returns 10,500,050
-btcSupplyAtBlock(210001)   # returns 10,500,075
+btcSupplyAtBlock(210002)   # returns 10,500,075
 ```
 
 #### 2016-07-09:
