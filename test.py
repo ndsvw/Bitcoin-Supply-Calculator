@@ -58,6 +58,17 @@ class Test(unittest.TestCase):
         self.assertEqual(btcSupplyAtBlock(1000000), 20187503.125)
         self.assertEqual(btcSupplyAtBlock(2500000), 20994384.78851406)
 
+    def testEndOfHalvings(self):
+        self.assertEqual(btcSupplyAtBlock(33 * 210000 - 5), 20999999.97689996)
+        self.assertEqual(btcSupplyAtBlock(33 * 210000 - 4), 20999999.97689997)
+        self.assertEqual(btcSupplyAtBlock(33 * 210000 - 3), 20999999.97689998)
+        self.assertEqual(btcSupplyAtBlock(33 * 210000 - 2), 20999999.97689999)
+        self.assertEqual(btcSupplyAtBlock(33 * 210000 - 1), 20999999.9769)
+        self.assertEqual(btcSupplyAtBlock(33 * 210000), 20999999.9769)
+        self.assertEqual(btcSupplyAtBlock(33 * 210000 + 1), 20999999.9769)
+        self.assertEqual(btcSupplyAtBlock(33 * 210000 + 2), 20999999.9769)
+        self.assertEqual(btcSupplyAtBlock(33 * 210000 + 3), 20999999.9769)
+
     def testFarInTheFuture(self):
         self.assertEqual(btcSupplyAtBlock(1e7), 20999999.9769)
         self.assertEqual(btcSupplyAtBlock(1e10), 20999999.9769)
