@@ -8,11 +8,15 @@ The Bitcoin block reward (the reward a miner gets for mining a block) halves eve
 
 The first block was mined on 2009-01-03 by "Satoshi Nakamoto".
 
-The first halving was on 2012-11-28 (from 50 BTC to 25 BTC) and the second one on 2016-07-09 (from 25 BTC to 12.5 BTC)...
+The first halving was on 2012-11-28 (from 50 BTC to 25 BTC) and the second one on 2016-07-09 (from 25 BTC to 12.5 BTC)... There are 32 halvings and 210,000 blocks after than (in 2140) the reward will drop from 1 Satoshi (0,00000001 Bitcoins) to 0.
 
-*This algorithm calculates the given BTC-supply after a given block regarding this halving-rule. The calculated value is the hypothetical largest possible supply after the given block. Lost bitcoins (because someone lost his or her private key(s), died without giving someone access to the bitcoins, etc) are of course not considered in this algorithm.*
+*This algorithm calculates the total BTC-supply after a given block regarding this halving-rule. The calculated value is the hypothetical largest possible supply after the given block. Lost bitcoins (because someone lost his or her private key(s), died without giving someone access to the bitcoins, etc) are of course not considered by this algorithm.*
+
+There is an upper bound of around 21M bitcoins (actually only 20,999,999.9769)
 
 More about the reward-halving: https://www.bitcoinmining.com/what-is-the-bitcoin-block-reward/
+
+More about why it's not 21M: https://bitcoin.stackexchange.com/questions/38994/will-there-be-21-million-bitcoins-eventually
 
 ## Examples
 
