@@ -81,13 +81,13 @@ btcSupplyAtBlock(2500000)  # returns 20,994,384.78851406
 
 #### end of reward halvings:
 ```python
-btcSupplyAtBlock(6929996)  # returns 20999999.97689997
-btcSupplyAtBlock(6929997)  # returns 20999999.97689998
-btcSupplyAtBlock(6929998)  # returns 20999999.97689999
-btcSupplyAtBlock(6929999)  # returns 20999999.9769
-btcSupplyAtBlock(6930000)  # returns 20999999.9769
-btcSupplyAtBlock(6930001)  # returns 20999999.9769
-btcSupplyAtBlock(6930002)  # returns 20999999.9769
-btcSupplyAtBlock(6930003)  # returns 20999999.9769
-btcSupplyAtBlock(6930004)  # returns 20999999.9769
+btcSupplyAtBlock(6929996)  # returns 20,999,999.97689997
+btcSupplyAtBlock(6929997)  # returns 20,999,999.97689998
+btcSupplyAtBlock(6929998)  # returns 20,999,999.97689999
+btcSupplyAtBlock(6929999)  # returns 20,999,999.9769
+btcSupplyAtBlock(6930000)  # returns 20,999,999.9769
+btcSupplyAtBlock(6930001)  # returns 20,999,999.9769
+btcSupplyAtBlock(6930002)  # returns 20,999,999.9769
+btcSupplyAtBlock(6930003)  # returns 20,999,999.9769
+btcSupplyAtBlock(6930004)  # returns 20,999,999.9769
 ```
