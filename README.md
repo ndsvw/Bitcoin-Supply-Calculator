@@ -47,7 +47,7 @@ btcSupplyAtBlock(420001)   # returns 15,750,025.0
 btcSupplyAtBlock(420002)   # returns 15,750,037.5
 ```
 
-#### 2020:
+#### 2020-05-11:
 ```python
 btcSupplyAtBlock(629998)   # returns 18,374,987.5
 btcSupplyAtBlock(629999)   # returns 18,375,000.0
